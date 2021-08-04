@@ -1,0 +1,6 @@
+steps:
+- name: 'bash'
+  args: ['cat', 'test.txt']
+options:
+  workerPool: 'projects/gdw-whitelist/locations/us-west1/workerPools/private-pool-us-west1'
+logBucket: 'gs://gdw-whitelist_cloudbuild/worker-logs'
