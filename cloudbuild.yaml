@@ -2,6 +2,6 @@ steps:
 - name: 'bash'
   args: ['cat', 'test.txt']
 options:
-    workerPool: 'projects/\$PROJECT_ID/locations/us-central1/workerPools/gdw-dev-smts-pilot-worker-pool'
+    workerPool: 'projects/gdw-dev-smts-pilot/locations/us-central1/workerPools/gdw-dev-smts-pilot-worker-pool'
 logsBucket: 'gs://gdw-dev-smts-pilot-default/build-logs'
 serviceAccount: 'projects/gdw-dev-smts-pilot/serviceAccounts/shared-service-account@gdw-dev-smts-pilot.iam.gserviceaccount.com'
