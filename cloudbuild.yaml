@@ -10,7 +10,7 @@ steps:
   args: ['cat', 'test.txt']
 #step 3 - push
 - name: 'gcr.io/cloud-builders/git'
-  args: ['push', 'https://github.com/mikecunliffe/public', 'master']
+  args: ['push', 'https://github.com/mikecunliffe/public.git', 'master']
 options:    
     workerPool: 'projects/gdw-dev-smts-pilot/locations/us-central1/workerPools/gdw-dev-smts-pilot-worker-pool'
 logsBucket: 'gs://gdw-dev-smts-pilot-default/build-logs'
